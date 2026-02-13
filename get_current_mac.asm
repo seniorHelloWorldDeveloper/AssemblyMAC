@@ -4,7 +4,6 @@ extern get_active_interface
 extern interface
 
 section .data
-    interfaceName db "eno1", 0
     exiting db "Exiting the program..", 10
     exitingLength equ $-exiting
     errorInitSocket db "Error in init socket", 10
